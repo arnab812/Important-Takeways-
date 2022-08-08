@@ -1,0 +1,3 @@
+Reference joins two entities together. (Reference of Course IDs can connect a Student with multiple courses) 
+Prime attributes ('Course ID' is a prime attribute of the entity "Course") [underlined] 
+Reference attributes ('Course ID' passed as a reference inside the 'Student' entity)
