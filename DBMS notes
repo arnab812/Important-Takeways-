@@ -2,11 +2,14 @@ Reference joins two entities together. (Reference of Course IDs can connect a St
 Prime attributes ('Course ID' is a prime attribute of the entity "Course") [underlined] 
 Reference attributes ('Course ID' passed as a reference inside the 'Student' entity)
 
-Column - attribute
-Row - tuple
+Column value - attribute
+Row value - tuple
 "Keys" are the backbone of RDBMS
 Key attributes : Unique identification. (Particularyly targets a record or tuple)
 Keys help to identify the required row of data in a table. 
 Keys ensure to identify the required record despite of having 'duplication' challenges. 
 i. Primary key : Unique. [Aadhar card] In a table one column can contain only one primary key. 
 ii. Candidate key : Main role / responsibility is to identify a tuple from the table of record. 
+
+Foreign key : Key (primary key of a column in a table of record) passed as a reference to another column in terms of building connection, is known as Foreign key.
+(Course ID got referenced inside Student) (Lecturer ID got referenced inside Subjects) 
