@@ -1,3 +1,4 @@
+DBMS : 
 Reference joins two entities together. (Reference of Course IDs can connect a Student with multiple courses) 
 Prime attributes ('Course ID' is a prime attribute of the entity "Course") [underlined] 
 Reference attributes ('Course ID' passed as a reference inside the 'Student' entity)
@@ -13,3 +14,7 @@ ii. Candidate key : Main role / responsibility is to identify a tuple from the t
 
 Foreign key : Key (primary key of a column in a table of record) passed as a reference to another column in terms of building connection, is known as Foreign key.
 (Course ID got referenced inside Student) (Lecturer ID got referenced inside Subjects) 
+
+
+C++ 
+return : Terminates the execution of a function and returns control to the calling function (or to the operating system if you transfer control from the main function).
